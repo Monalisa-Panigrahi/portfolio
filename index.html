@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Monalisa Panigrahi – Portfolio</title>
+  <meta name="description" content="Portfolio of Monalisa Panigrahi – Aspiring Software Engineer, Data Analyst, and ML Enthusiast."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#top">MP</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certs">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeBtn" class="btn">🌙 <span class="lbl">Dark</span></button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1>Hi, I’m <span>Monalisa Panigrahi</span></h1>
+        <p>Aspiring Software Engineer • Data Analyst • ML Enthusiast</p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn outline">Contact Me</a>
+        </div>
+
+        <div class="hero-skills">
+          <span class="pill">Java</span>
+          <span class="pill">Python</span>
+          <span class="pill">SQL</span>
+          <span class="pill">Machine Learning</span>
+          <span class="pill">Power BI</span>
+          <span class="pill">Deep Learning</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-photo">
+          <img src="images/photo.jpg" alt="Monalisa Panigrahi" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="section-head">
+        <h2>About Me</h2>
+      </div>
+      <div class="card">
+        <p>
+          I’m a Computer Science undergraduate at VIT-AP with a passion for data analysis, machine learning, 
+          and full-stack development. I enjoy building data-driven solutions, working with cloud technologies, 
+          and continuously learning new tools and concepts.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-head">
+        <h2>Skills</h2>
+      </div>
+      <div class="grid cards-3">
+        <div class="card"><h3>Languages</h3><p>Java, Python, R, SQL</p></div>
+        <div class="card"><h3>Frameworks & Tools</h3><p>Power BI, TensorFlow, Scikit-learn, Bootstrap</p></div>
+        <div class="card"><h3>Databases</h3><p>MySQL</p></div>
+        <div class="card"><h3>Concepts</h3><p>DSA, OOPS, DBMS, OS</p></div>
+        <div class="card"><h3>Cloud</h3><p>AWS, Oracle Cloud, Azure AI</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-head"><h2>Projects</h2></div>
+      <div class="grid cards-3">
+        <div class="card">
+          <h3>📊 Business Intelligence Dashboard</h3>
+          <p>Interactive dashboard with Python + SQL + Power BI, 90% forecasting accuracy.</p>
+        </div>
+        <div class="card">
+          <h3>📞 Customer Churn Prediction</h3>
+          <p>ML model with Python & XGBoost, 89% accuracy in predicting customer churn.</p>
+        </div>
+        <div class="card">
+          <h3>💬 Sentiment & Sarcasm Analysis</h3>
+          <p>NLP models with NLTK & TensorFlow, 90% classification accuracy.</p>
+        </div>
+        <div class="card">
+          <h3>🖼 Image Forgery Detection</h3>
+          <p>CNN with TensorFlow + ResNet50, 88% accuracy on real-world images.</p>
+        </div>
+        <div class="card">
+          <h3>🌱 EcoSmart E-commerce Platform</h3>
+          <p>Eco-friendly web platform using HTML, CSS, Bootstrap, JS, 92% functional accuracy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="container">
+      <div class="section-head"><h2>Education</h2></div>
+      <div class="grid cards-3">
+        <div class="card"><h3>B.Tech CSE — VIT-AP</h3><p>2022 – 2026 • CGPA: 8.30</p></div>
+        <div class="card"><h3>HSC — CHSE Board</h3><p>Khallikote University, 2021 • 90.33%</p></div>
+        <div class="card"><h3>SSC — BSE Board</h3><p>SSVM Gossainnuagaon, 2019 • 87.88%</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certs">
+    <div class="container">
+      <div class="section-head"><h2>Certifications</h2></div>
+      <div class="grid cards-3">
+        <div class="card"><h3>Oracle Cloud Infrastructure Generative AI Professional (2025)</h3></div>
+        <div class="card"><h3>AWS Cloud Foundations & Architecting (2024)</h3></div>
+        <div class="card"><h3>Microsoft Azure AI-900 (2023)</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-head"><h2>Contact</h2></div>
+      <div class="contact-grid">
+        <form class="card">
+          <p>Email: <a href="mailto:monalisa.panigrahi1810@gmail.com">monalisa.panigrahi1810@gmail.com</a></p>
+          <p>Phone: <a href="tel:+918249852991">+91-8249852991</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/monalisa-panigrahi-134528274/">linkedin.com/in/monalisa-panigrahi</a></p>
+          <p>GitHub: <a href="https://github.com/mo8274">github.com/mo8274</a></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <span>© <span id="year"></span> Monalisa Panigrahi</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
